@@ -51,7 +51,7 @@ jobs:
           echo "Checking if container is running..."
           docker ps | grep test-container
           echo "Performing HTTP health check..."
-          curl -f http://localhost:8080 || { echo "Health check failed"; exit 1; }
+          curl -f http://45.92.216.164:8080 || { echo "Health check failed"; exit 1; }
           echo "Tests passed successfully."
           docker stop test-container
 
