@@ -49,6 +49,8 @@ body {
     gap: 0.5rem;
 }
 
+/* Navbar Links */
+
 .nav-links {
     display: flex;
     gap: 2rem;
